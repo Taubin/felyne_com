@@ -1,0 +1,110 @@
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Ghost is running in production...","time":"2022-04-20T04:20:52.591Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Your site is now available on https://felyne.com/","time":"2022-04-20T04:20:52.595Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Ctrl+C to shut down","time":"2022-04-20T04:20:52.595Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Ghost server started in 1.517s","time":"2022-04-20T04:20:52.605Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":50,"err":{"id":500,"domain":"https://felyne.com","code":"ECONNREFUSED","name":"InternalServerError","statusCode":500,"level":"critical","message":"connect ECONNREFUSED 172.19.0.7:3306","help":"\"Unknown database error\"","stack":"DatabaseError: connect ECONNREFUSED 172.19.0.7:3306\n    at DatabaseStateManager.getState (/var/lib/ghost/versions/4.44.0/core/server/data/db/state-manager.js:64:32)\n    at DatabaseError.KnexMigrateError (/var/lib/ghost/versions/4.44.0/node_modules/knex-migrator/lib/errors.js:7:26)\n    at new DatabaseError (/var/lib/ghost/versions/4.44.0/node_modules/knex-migrator/lib/errors.js:55:26)\n    at /var/lib/ghost/versions/4.44.0/node_modules/knex-migrator/lib/database.js:57:19\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async DatabaseStateManager.getState (/var/lib/ghost/versions/4.44.0/core/server/data/db/state-manager.js:40:13)\n    at async DatabaseStateManager.makeReady (/var/lib/ghost/versions/4.44.0/core/server/data/db/state-manager.js:73:25)\n    at async initDatabase (/var/lib/ghost/versions/4.44.0/core/boot.js:69:5)\n    at async bootGhost (/var/lib/ghost/versions/4.44.0/core/boot.js:412:9)\n\nError: connect ECONNREFUSED 172.19.0.7:3306\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)","hideStack":false},"msg":"connect ECONNREFUSED 172.19.0.7:3306","time":"2022-04-20T04:20:53.027Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":40,"msg":"Ghost is shutting down","time":"2022-04-20T04:20:53.028Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":40,"msg":"Ghost has shut down","time":"2022-04-20T04:20:53.029Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":40,"msg":"Your site is now offline","time":"2022-04-20T04:20:53.030Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":40,"msg":"Ghost was running for a few seconds","time":"2022-04-20T04:20:53.034Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Ghost is running in production...","time":"2022-04-20T04:20:57.199Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Your site is now available on https://felyne.com/","time":"2022-04-20T04:20:57.201Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Ctrl+C to shut down","time":"2022-04-20T04:20:57.201Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Ghost server started in 2.175s","time":"2022-04-20T04:20:57.205Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":50,"err":{"id":500,"domain":"https://felyne.com","code":"ECONNREFUSED","name":"InternalServerError","statusCode":500,"level":"critical","message":"connect ECONNREFUSED 172.19.0.7:3306","help":"\"Unknown database error\"","stack":"DatabaseError: connect ECONNREFUSED 172.19.0.7:3306\n    at DatabaseStateManager.getState (/var/lib/ghost/versions/4.44.0/core/server/data/db/state-manager.js:64:32)\n    at DatabaseError.KnexMigrateError (/var/lib/ghost/versions/4.44.0/node_modules/knex-migrator/lib/errors.js:7:26)\n    at new DatabaseError (/var/lib/ghost/versions/4.44.0/node_modules/knex-migrator/lib/errors.js:55:26)\n    at /var/lib/ghost/versions/4.44.0/node_modules/knex-migrator/lib/database.js:57:19\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async DatabaseStateManager.getState (/var/lib/ghost/versions/4.44.0/core/server/data/db/state-manager.js:40:13)\n    at async DatabaseStateManager.makeReady (/var/lib/ghost/versions/4.44.0/core/server/data/db/state-manager.js:73:25)\n    at async initDatabase (/var/lib/ghost/versions/4.44.0/core/boot.js:69:5)\n    at async bootGhost (/var/lib/ghost/versions/4.44.0/core/boot.js:412:9)\n\nError: connect ECONNREFUSED 172.19.0.7:3306\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)","hideStack":false},"msg":"connect ECONNREFUSED 172.19.0.7:3306","time":"2022-04-20T04:20:57.434Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":40,"msg":"Ghost is shutting down","time":"2022-04-20T04:20:57.435Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":40,"msg":"Ghost has shut down","time":"2022-04-20T04:20:57.445Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":40,"msg":"Your site is now offline","time":"2022-04-20T04:20:57.446Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":40,"msg":"Ghost was running for a few seconds","time":"2022-04-20T04:20:57.448Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Ghost is running in production...","time":"2022-04-20T04:21:27.563Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Your site is now available on https://felyne.com/","time":"2022-04-20T04:21:27.566Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Ctrl+C to shut down","time":"2022-04-20T04:21:27.567Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Ghost server started in 1.469s","time":"2022-04-20T04:21:27.574Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":40,"msg":"Database state requires initialisation.","time":"2022-04-20T04:21:27.994Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: newsletters","time":"2022-04-20T04:21:28.812Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: posts","time":"2022-04-20T04:21:29.018Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: posts_meta","time":"2022-04-20T04:21:29.268Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: users","time":"2022-04-20T04:21:29.498Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: oauth","time":"2022-04-20T04:21:29.634Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: posts_authors","time":"2022-04-20T04:21:29.809Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: roles","time":"2022-04-20T04:21:30.110Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: roles_users","time":"2022-04-20T04:21:30.214Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: permissions","time":"2022-04-20T04:21:30.283Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: permissions_users","time":"2022-04-20T04:21:30.385Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: permissions_roles","time":"2022-04-20T04:21:30.429Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: settings","time":"2022-04-20T04:21:30.484Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: tags","time":"2022-04-20T04:21:30.587Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: posts_tags","time":"2022-04-20T04:21:30.686Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: invites","time":"2022-04-20T04:21:31.046Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: brute","time":"2022-04-20T04:21:31.178Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: sessions","time":"2022-04-20T04:21:31.223Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: integrations","time":"2022-04-20T04:21:31.306Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: webhooks","time":"2022-04-20T04:21:31.403Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: api_keys","time":"2022-04-20T04:21:31.588Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: mobiledoc_revisions","time":"2022-04-20T04:21:31.673Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: members","time":"2022-04-20T04:21:31.756Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: products","time":"2022-04-20T04:21:31.928Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: offers","time":"2022-04-20T04:21:32.014Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: benefits","time":"2022-04-20T04:21:32.321Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: products_benefits","time":"2022-04-20T04:21:32.424Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: members_products","time":"2022-04-20T04:21:32.792Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: posts_products","time":"2022-04-20T04:21:33.144Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: members_cancel_events","time":"2022-04-20T04:21:33.470Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: members_payment_events","time":"2022-04-20T04:21:33.664Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: members_login_events","time":"2022-04-20T04:21:33.847Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: members_email_change_events","time":"2022-04-20T04:21:34.023Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: members_status_events","time":"2022-04-20T04:21:34.190Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: members_product_events","time":"2022-04-20T04:21:34.358Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: members_paid_subscription_events","time":"2022-04-20T04:21:34.688Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: labels","time":"2022-04-20T04:21:34.880Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: members_labels","time":"2022-04-20T04:21:35.036Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: members_stripe_customers","time":"2022-04-20T04:21:35.381Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: members_stripe_customers_subscriptions","time":"2022-04-20T04:21:35.606Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: offer_redemptions","time":"2022-04-20T04:21:36.015Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: members_subscribe_events","time":"2022-04-20T04:21:36.530Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: stripe_products","time":"2022-04-20T04:21:36.696Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: stripe_prices","time":"2022-04-20T04:21:36.912Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: actions","time":"2022-04-20T04:21:37.132Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: emails","time":"2022-04-20T04:21:37.183Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: email_batches","time":"2022-04-20T04:21:37.439Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: email_recipients","time":"2022-04-20T04:21:37.625Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: tokens","time":"2022-04-20T04:21:38.161Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: snippets","time":"2022-04-20T04:21:38.266Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: temp_member_analytic_events","time":"2022-04-20T04:21:38.355Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: custom_theme_settings","time":"2022-04-20T04:21:38.423Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Creating table: members_newsletters","time":"2022-04-20T04:21:38.468Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Model: Product","time":"2022-04-20T04:21:38.848Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Model: Newsletter","time":"2022-04-20T04:21:38.965Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Model: Tag","time":"2022-04-20T04:21:38.992Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Model: Role","time":"2022-04-20T04:21:39.003Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Model: Permission","time":"2022-04-20T04:21:39.045Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Model: User","time":"2022-04-20T04:21:39.515Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Model: Post","time":"2022-04-20T04:21:40.064Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Model: Integration","time":"2022-04-20T04:21:44.582Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Relation: Role to Permission","time":"2022-04-20T04:21:48.263Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Relation: Post to Tag","time":"2022-04-20T04:21:55.384Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Relation: User to Role","time":"2022-04-20T04:21:56.264Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Database is in a ready state.","time":"2022-04-20T04:21:59.005Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Ghost database ready in 33.35s","time":"2022-04-20T04:21:59.525Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":50,"err":{"domain":"https://felyne.com","message":"Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?","stack":"KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?\n    at Client_MySQL2.acquireConnection (/var/lib/ghost/versions/4.44.0/node_modules/knex/lib/client.js:310:26)\n    at runNextTicks (internal/process/task_queues.js:60:5)\n    at listOnTimeout (internal/timers.js:526:9)\n    at processTimers (internal/timers.js:500:7)\n    at async Runner.ensureConnection (/var/lib/ghost/versions/4.44.0/node_modules/knex/lib/execution/runner.js:294:28)\n    at async Runner.run (/var/lib/ghost/versions/4.44.0/node_modules/knex/lib/execution/runner.js:30:19)"},"msg":"Unhandled rejection: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?","time":"2022-04-20T04:23:16.603Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":40,"msg":"Ghost is shutting down","time":"2022-04-20T04:25:00.267Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":40,"msg":"Ghost has shut down","time":"2022-04-20T04:25:00.870Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":40,"msg":"Your site is now offline","time":"2022-04-20T04:25:00.871Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":40,"msg":"Ghost was running for 4 minutes","time":"2022-04-20T04:25:00.875Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":50,"err":{"domain":"https://felyne.com","code":"EAI_AGAIN","message":"getaddrinfo EAI_AGAIN f_database","stack":"Error: getaddrinfo EAI_AGAIN f_database\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)"},"msg":"getaddrinfo EAI_AGAIN f_database","time":"2022-04-20T04:25:00.888Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":50,"err":{"id":"d7fc2730-c061-11ec-9074-b7a9df4c81d9","domain":"https://felyne.com","code":"EAI_AGAIN","name":"InternalServerError","statusCode":500,"level":"critical","message":"getaddrinfo EAI_AGAIN f_database","stack":"Error: getaddrinfo EAI_AGAIN f_database\n    at bootGhost (/var/lib/ghost/versions/4.44.0/core/boot.js:461:32)\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)","hideStack":false},"msg":"getaddrinfo EAI_AGAIN f_database","time":"2022-04-20T04:25:00.968Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":40,"msg":"Ghost is shutting down","time":"2022-04-20T04:25:00.972Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Ghost is running in production...","time":"2022-04-20T04:25:07.032Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Your site is now available on https://felyne.com/","time":"2022-04-20T04:25:07.036Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Ctrl+C to shut down","time":"2022-04-20T04:25:07.037Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Ghost server started in 1.545s","time":"2022-04-20T04:25:07.051Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Database is in a ready state.","time":"2022-04-20T04:25:07.587Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Ghost database ready in 2.175s","time":"2022-04-20T04:25:07.681Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Ghost URL Service Ready in 8.092s","time":"2022-04-20T04:25:13.602Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Stripe not configured - skipping migrations","time":"2022-04-20T04:25:17.829Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Ghost booted in 14.649s","time":"2022-04-20T04:25:20.159Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Adding offloaded job to the queue","time":"2022-04-20T04:25:20.416Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"msg":"Scheduling job update-check at 13 36 13 * * *. Next run on: Wed Apr 20 2022 13:36:13 GMT+0000 (Coordinated Universal Time)","time":"2022-04-20T04:25:20.504Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"req":{"meta":{"requestId":"91875704-2daa-48d2-84d2-4a7923ac4405","userId":null},"url":"/","method":"GET","originalUrl":"/","params":{},"headers":{"connection":"Keep-Alive","host":"felyne.com","x-forwarded-scheme":"http","x-forwarded-proto":"http","x-forwarded-for":"108.162.245.52","x-real-ip":"108.162.245.52","accept-encoding":"gzip","cf-ipcountry":"US","cf-ray":"6feb2118dcc76817-SEA","cf-visitor":"{\"scheme\":\"http\"}","user-agent":"Mozilla/5.0 (iPhone; CPU iPhone OS 15_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Mobile/15E148 Safari/604.1","accept":"*/*","cf-connecting-ip":"51.81.167.146","cdn-loop":"cloudflare"},"query":{}},"res":{"_headers":{"x-powered-by":"Express","cache-control":"public, max-age=31536000","location":"https://felyne.com/","vary":"Accept, Accept-Encoding","content-type":"text/plain; charset=utf-8","content-length":"53"},"statusCode":301,"responseTime":"13ms"},"msg":"","time":"2022-04-20T04:27:41.235Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"req":{"meta":{"requestId":"cec19d3f-a784-4830-95be-3b97a0d4b70e","userId":null},"url":"/favicon.ico","method":"GET","originalUrl":"/favicon.ico","params":{},"headers":{"host":"felyne.com","x-forwarded-scheme":"https","x-forwarded-proto":"https","x-forwarded-for":"172.70.207.6","x-real-ip":"172.70.207.6","connection":"close","cf-connecting-ip":"199.19.225.54","cdn-loop":"cloudflare","accept-encoding":"gzip","cf-ipcountry":"US","cf-ray":"6feb211f1d677e41-LAX","cf-visitor":"{\"scheme\":\"https\"}","accept":"*/*","user-agent":"Mozilla/5.0 Safari/537.36"},"query":{}},"res":{"_headers":{"x-powered-by":"Express","content-type":"image/x-icon","etag":"\"a9c6dbdcdc3ae568f4e0dad92149a0e3\"","cache-control":"public, max-age=86400","vary":"Accept-Encoding","content-encoding":"gzip"},"statusCode":200,"responseTime":"26ms"},"msg":"","time":"2022-04-20T04:27:42.200Z","v":0}
+{"name":"Log","hostname":"42fa528b0d68","pid":1,"level":30,"req":{"meta":{"requestId":"3aedaaa4-4a16-4401-93da-da839fe6a960","userId":null},"url":"/","method":"GET","originalUrl":"/","params":{},"headers":{"host":"felyne.com","x-forwarded-scheme":"https","x-forwarded-proto":"https","x-forwarded-for":"108.162.245.219","x-real-ip":"108.162.245.219","cf-connecting-ip":"51.81.167.146","cdn-loop":"cloudflare","accept-encoding":"gzip","cf-ipcountry":"US","cf-ray":"6feb211a1b073098-SEA","cf-visitor":"{\"scheme\":\"https\"}","user-agent":"Mozilla/5.0 (iPhone; CPU iPhone OS 15_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Mobile/15E148 Safari/604.1","accept":"*/*"},"query":{}},"res":{"_headers":{"x-powered-by":"Express","cache-control":"public, max-age=0","content-type":"text/html; charset=utf-8","etag":"W/\"2b34-BD9MpWxQZW9ISvVT5uJJk7BooUA\"","vary":"Accept-Encoding","content-encoding":"gzip"},"statusCode":200,"responseTime":"827ms"},"msg":"","time":"2022-04-20T04:27:42.250Z","v":0}

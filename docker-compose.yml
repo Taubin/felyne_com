@@ -1,0 +1,39 @@
+version: '3.3'
+
+services:
+  blog:
+    image: ghost:latest
+    container_name: felyne_ghost
+    restart: unless-stopped
+    ports:
+      - 8090:2368
+    volumes:
+      - ~/felyne/data/content:/var/lib/ghost/content
+    environment:
+      # see https://ghost.org/docs/config/#configuration-options
+      database__client: mysql
+      database__connection__host: f_database
+      database__connection__user: root
+      database__connection__password: tJB64sRHy6CXPX
+      database__connection__database: ghost
+      url: https://felyne.com
+      NODE_ENV: production
+
+  f_database:
+    image: mysql:5.7
+    container_name: f_ghost_db
+    restart: unless-stopped
+    volumes:
+      - ~/felyne/data/db:/var/lib/mysql
+    ports:
+      - "13930:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: tJB64sRHy6CXPX
+      MYSQL_DATABASE: felyne_ghost
+      MYSQL_USER: user
+      MYSQL_PASSWORD: tJB64sRHy6CXPX
+
+networks:
+  default:
+    external:
+      name: proxy
